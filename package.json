@@ -1,0 +1,29 @@
+{
+  "name": "react-spacex",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemjemzms/react-spaceX.git"
+  },
+  "author": "Jed Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemjemzms/react-spaceX/issues"
+  },
+  "homepage": "https://github.com/jemjemzms/react-spaceX#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
