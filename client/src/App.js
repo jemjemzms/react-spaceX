@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <ApolloProvider client={client}>
         <Router>
-          <div className="container">
+          <div className="container spacex-container">
             <img
               src={logo}
               alt="SpaceX"
